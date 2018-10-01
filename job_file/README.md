@@ -75,17 +75,17 @@
 
 * ###	Email user when:
   * ### job begins:
-```
- #SBATCH --mail-type=begin
-```
+  ```
+   #SBATCH --mail-type=begin
+  ```
   * ### job finishes:
-```
- #SBATCH --mail-type=end
-```
+  ```
+   #SBATCH --mail-type=end
+  ```
   * ### or both:
- ```
- #SBATCH --mail-type=ALL
-```
+   ```
+   #SBATCH --mail-type=ALL
+  ```
 
 ## Commands/process to execute on compute node:
 * ### Load Modules.
