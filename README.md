@@ -11,6 +11,6 @@ In all these tutorials it is assumed you have some basic knowledge of how to use
 
 ### [Apply for your account - Only UNT students](https://hpc.unt.edu/account-info)
 
-### [Job Files and how to Submit](https://)
+### [Job Files and how to Submit](https://github.com/gmihaila/unt_hpc/tree/master/job_file)
 
 ### [link text](https://)
