@@ -1,6 +1,8 @@
-## Example of  job script:
+# Example of  job script:
 
 </br>
+
+## Slurm Commands
 
 
 * ### Command used (always leave it like this):
@@ -85,33 +87,32 @@
 
 </br>
 
-* ###	Requests the c6320 compute nodes. (Also can request r420, r720, and r730 compute nodes)
+* ###	Requests the c6320 compute nodes. (Also can request r420, r720, and r730 compute nodes). [More Info](https://hpc.unt.edu/compute-nodes)
 ```
  #SBATCH -C c6320
 ```
 
 </br>
 
-###	Sets up email notification.
-\#SBATCH --mail-user=user@unt.edu
+* ###	Sets up email notification.
 ```
-
-```
-
-</br>
-
-###	Email user when job begins.
-\#SBATCH --mail-type=begin
-```
-
+ #SBATCH --mail-user=user@unt.edu
 ```
 
 </br>
 
-###	Email user when job finishes.
-\#SBATCH --mail-type=end
+* ###	Email user when:
+ * ### job begins:
 ```
-
+ #SBATCH --mail-type=begin
+```
+ * ### job finishes:
+```
+ #SBATCH --mail-type=end
+```
+ * ### or both:
+ ```
+ #SBATCH --mail-type=ALL
 ```
 
 ######################################
