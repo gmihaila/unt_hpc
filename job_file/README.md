@@ -30,9 +30,9 @@
 ```
 
 * ###	Defines the Quality of Service (**QOS**) the job will be executed. Options to use: (debug, general, large)
- * debug - 2 hour and 2 node limit with **high priority**
- * general - 72 hour and 560 CPU cores limit with default partition
- * large - limit to 20 nodes, unlimited hours, allow exclusive jobs and **low priority**
+  * debug - 2 hour and 2 node limit with **high priority**
+  * general - 72 hour and 560 CPU cores limit with default partition
+  * large - limit to 20 nodes, unlimited hours, allow exclusive jobs and **low priority**
  
 ```
      #SBATCH --qos general
