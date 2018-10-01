@@ -139,3 +139,14 @@
  module load python
 
  python test.py
+```
+ 
+
+ 
+ 
+ ### To run this example use:
+ 
+
+```
+ $ sbatch job_template.job
+```
