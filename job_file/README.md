@@ -74,40 +74,40 @@
 ```
 
 * ###	Email user when:
-  * ### job begins:
+  * **job begins:**
   ```
    #SBATCH --mail-type=begin
   ```
-  * ### job finishes:
+  * **job finishes:**
   ```
    #SBATCH --mail-type=end
   ```
-  * ### or both:
+  * **or both:**
    ```
    #SBATCH --mail-type=ALL
   ```
 
 ## Commands/process to execute on compute node:
 * ### Load Modules.
- ```
- module load python
-```
- * ### To see all modules available, type this in your terminal (NOT the job file):
+   ```
+   module load python
   ```
- module avail
-```
- * ### To see all loaded modules, type this in your terminal (NOT the job file):
+  * #### To see all modules available, type this in your terminal (NOT the job file):
   ```
- module list
-```
- * ### Remove module, type this in your terminal (NOT the job file):
+  module avail
   ```
- module list
-```
- * ### Remove all modules, type this in your terminal (NOT the job file):
+  * #### To see all loaded modules, type this in your terminal (NOT the job file):
   ```
- module purge
-```
+  module list
+  ```
+  * #### Remove module, type this in your terminal (NOT the job file):
+  ```
+  module list
+  ```
+  * #### Remove all modules, type this in your terminal (NOT the job file):
+  ```
+  module purge
+  ```
 
 </br>
 
@@ -122,9 +122,9 @@
 ```
 
 * ### Copy any files back to home directory if neede:
-```
- cp /storage/scratch2/$USER/file_name /home/$USER/file_name
-```
+  ```
+  cp /storage/scratch2/$USER/file_name /home/$USER/file_name
+  ```
 
 ## There is no need to use all commands. Your job file can look as simple as:
 ```
@@ -140,3 +140,7 @@
 
  python test.py
 ```
+ 
+
+ 
+ 
