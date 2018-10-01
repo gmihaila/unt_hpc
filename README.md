@@ -1,6 +1,6 @@
 ## Univeristy of North Texas (UNT) High Performance Computing (HPC)
 ## Data Science & Analytics (DSA) 
-[link](https://hpc.unt.edu/home)
+[UNT - HPC](https://hpc.unt.edu/home)
 
 </br>
 
