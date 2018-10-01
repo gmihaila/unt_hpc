@@ -122,9 +122,9 @@
 ```
 
 * #### Copy any files back to home directory if neede:
-  ```
-  cp /storage/scratch2/$USER/file_name /home/$USER/file_name
-  ```
+```
+ cp /storage/scratch2/$USER/file_name /home/$USER/file_name
+ ```
 
 ### There is no need to use all commands. Your job file can look as simple as:
 ```
@@ -139,3 +139,47 @@
  module load python
 
  python test.py
+```
+ 
+
+ 
+ 
+ ### To run this example use:
+ 
+
+```
+ $ sbatch job_template.job
+```
+
+### List jobs:
+
+
+```
+ $ squeue -u $USER
+```
+
+
+
+
+### Get job details:
+```
+ $ scontrol show job $JOB_ID
+```
+
+
+### Kill a job. Users can kill their own jobs, root can kill any job.
+```
+ $ scancel $JOB_ID
+```
+
+### Hold a job:
+```
+ $ scontrol hold $JOB_ID
+```
+
+
+### Release a job:
+```
+ $ scontrol release $JOB_ID
+```
+
