@@ -122,9 +122,9 @@
 ```
 
 * #### Copy any files back to home directory if neede:
-  ```
+```
  cp /storage/scratch2/$USER/file_name /home/$USER/file_name
-  ```
+ ```
 
 ### There is no need to use all commands. Your job file can look as simple as:
 ```
