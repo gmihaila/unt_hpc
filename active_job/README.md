@@ -12,7 +12,13 @@ Interactive job sessions can be used on Talon if you need to compile or test sof
 ```
 This launches an interactive job session and lanches a bash shell to a compute node. From there, you can exectue software and shell commands that would otherwise not be allowed on the Talon login nodes.
 
+### Login to your node
 
+
+```
+ slogin $NODE_NAME
+```
+**\$NODE_NAME** can be seen when **List Jobs** under **NODELIST** column
 
 ### List jobs:
 
