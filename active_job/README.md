@@ -83,7 +83,7 @@ You can use same **Slurm Commands**:
   * **or both:**
    ```
    --mail-type=ALL
-   
+   ```
 * ####    Use GPUs.
 ```
 --gres=gpu: NUM_GPUS
@@ -131,4 +131,14 @@ Find out your job id:
 ```
  $ scontrol release $JOB_ID
 ```
+
+### Example of requesting 1 node with email notificaiton:
+
+
+```
+ $ srun -p public --qos general --mail-user=user@unt.edu --mail-type=ALL -N 1 --pty bash
+```
+#### This is very useful because it notifies you when your node has been allocated to you so you can start work!
+
+
 
