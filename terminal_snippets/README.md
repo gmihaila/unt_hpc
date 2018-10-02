@@ -4,7 +4,7 @@
 
 **Find out your job id:**
 ```
- $ squeue -u euid123
+ $ squeue -u euid123$
 ```
  
 **\$JOB_ID** can be seen under **JOBID** column
@@ -13,7 +13,7 @@
  $ scontrol show job $JOB_ID
 ```
 
-** Kill a job. Users can kill their own jobs, root can kill any job.**
+**Kill a job. Users can kill their own jobs, root can kill any job.**
 
 ```
  $ scancel $JOB_ID
