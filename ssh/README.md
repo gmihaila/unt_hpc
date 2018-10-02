@@ -1,6 +1,10 @@
 # (Mac and Linux Only)
 ## SSH Terminal Easy Configuration
 
+If you never used SSH before [this](https://www.digitalocean.com/community/tutorials/how-to-use-ssh-to-connect-to-a-remote-server-in-ubuntu) is a helpful example.
+
+Or if you don't know if you have SSH installed on your sistem [Mac](http://osxdaily.com/2017/04/28/howto-ssh-client-mac/)    [Linux](https://www.tecmint.com/install-openssh-server-in-linux/)
+
 In order to login to talon you will have to use SSH command on **your personal computer's temrinal**:
 
 
@@ -8,7 +12,9 @@ In order to login to talon you will have to use SSH command on **your personal c
 $ ssh euid123@talon3.hpc.unt.edu
 ```
 
-Then it will ask for you password. To make things easier you cna have it save the password and even create a shortcut so you can speed things up:
+Then it will ask for you password. 
+
+To make things easier you cna have it save the password and even create a shortcut so you can speed things up:
 
 ### Setup alias on you SSH connection:
 Make sure you are in your home directory:
@@ -59,6 +65,7 @@ $ ssh t3
 ```
 ### Save SSH password:
 Now you have a shortcut, but you will still need to enter your password every time.
+
 In order to save your passwords you will have to create a keygen file:
 
 
@@ -114,7 +121,10 @@ and check to make sure that only the key(s) you wanted were added.
 Congratulations! Now every time you need to login to Talon you just need to type **ssh t3** and your good to go!
 
 ## When you want to copy files using SCP:
+If you are not familiar with SCP you can find a nice example [here](https://www.computerhope.com/unix/scp.htm)
+
 Now since you setup your ssh shortcut to be t3 and the password saved, when you use SCP it will be a lot easier!
+
 Just type
 
 
