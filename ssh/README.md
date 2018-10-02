@@ -121,7 +121,7 @@ Just type
 ```
 scp path/to/file/my_file t3:.
 ```
-It will automatically enter the whole euid123@talon3.hpc.unt.edu and password for you!
+It will automatically login and enter the password for you!
 
 
 
