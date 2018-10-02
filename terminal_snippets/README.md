@@ -6,6 +6,7 @@
 ```
  $ squeue -u euid123
 ```
+ 
 **\$JOB_ID** can be seen under **JOBID** column
 
 ```
@@ -13,6 +14,7 @@
 ```
 
 ** Kill a job. Users can kill their own jobs, root can kill any job.**
+
 ```
  $ scancel $JOB_ID
 ```
