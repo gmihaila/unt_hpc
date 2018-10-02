@@ -4,7 +4,7 @@
 
 **Find out your job id:**
 ```
- $ squeue -u euid123$
+ $ squeue -u euid123
 ```
  
 **\$JOB_ID** can be seen under **JOBID** column
