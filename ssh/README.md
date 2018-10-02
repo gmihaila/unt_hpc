@@ -113,6 +113,18 @@ and check to make sure that only the key(s) you wanted were added.
 
 Congratiulations! Now everytime you need to login to Talon you just need to type **ssh t3** and your good to go!
 
+## When you want to copy files using SCP:
+Now since you setup your ssh shourtcut to be t3 and the password saved, when you use SCP it will be a lot easier!
+Just type 
+
+
+```
+scp path/to/file/my_file t3:.
+```
+It will automatically enter the whole euid123@talon3.hpc.unt.edu and password for you!
+
+
+
 
 
 
