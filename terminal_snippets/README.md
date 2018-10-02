@@ -20,12 +20,14 @@
 ```
 
 ** Hold a job:**
+
 ```
  $ scontrol hold $JOB_ID
 ```
 
 
 ** Release a job:**
+
 ```
  $ scontrol release $JOB_ID
  ```
