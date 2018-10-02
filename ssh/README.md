@@ -1,5 +1,5 @@
 # (Mac and Linux Only)
-## SSH Temrinal Easy Configuration
+## SSH Terminal Easy Configuration
 
 In order to login to talon you will have to use SSH command on **your personal computer's temrinal**:
 
@@ -46,7 +46,7 @@ Host t3
   User euid123
   Port 22
 ```
-Where t3 (it can be any word you want) is the shortcut you will use instead of typing: 
+Where t3 (it can be any word you want) is the shortcut you will use instead of typing:
 
 ```
 $ ssh euid123@talon3.hpc.unt.edu
@@ -58,18 +58,18 @@ You will type:
 $ ssh t3
 ```
 ### Save SSH password:
-Now you have a shortcut, but you will still need to enter your password everytime.
+Now you have a shortcut, but you will still need to enter your password every time.
 In order to save your passwords you will have to create a keygen file:
 
 
 ```
-$  ssh-keygen 
+$  ssh-keygen
 ```
 When prompted with this:
 
 
 ```
-Enter file in which to save the key (/home/your_user/.ssh/id_rsa): 
+Enter file in which to save the key (/home/your_user/.ssh/id_rsa):
 ```
 Just press Enter to save the id_ras in the path. Then you will be prompted with:
 
@@ -81,7 +81,7 @@ Type Enter again if you don't want to type any password when ssh
 
 
 ```
-Enter same passphrase again: 
+Enter same passphrase again:
 ```
 Hit Enter again!
 You should see:
@@ -97,7 +97,7 @@ Now you can start saving passwords on you SSH:
 ```
  $ ssh-copy-id euid123@talon3.hpc.unt.edu
 ```
-or if you have your shortcut 
+or if you have your shortcut
 ```
 $ ssh-copy-id t3
 ```
@@ -111,17 +111,18 @@ Now try logging into the machine, with:   "ssh 't3'"
 and check to make sure that only the key(s) you wanted were added.
 ```
 
-Congratiulations! Now everytime you need to login to Talon you just need to type **ssh t3** and your good to go!
+Congratulations! Now every time you need to login to Talon you just need to type **ssh t3** and your good to go!
 
 ## When you want to copy files using SCP:
-Now since you setup your ssh shourtcut to be t3 and the password saved, when you use SCP it will be a lot easier!
-Just type 
+Now since you setup your ssh shortcut to be t3 and the password saved, when you use SCP it will be a lot easier!
+Just type
 
 
 ```
 scp path/to/file/my_file t3:.
 ```
 It will automatically login and enter the password for you!
+
 
 
 
