@@ -11,11 +11,12 @@ In all these tutorials it is assumed you have some basic knowledge of how to use
 
 ### [Apply for your account - Only UNT students](https://hpc.unt.edu/account-info)
 
-### [Setup ssh for faster login](https://github.com/gmihaila/unt_hpc/blob/master/ssh/README.md)
+### [SSH Configure](https://github.com/gmihaila/unt_hpc/blob/master/ssh/README.md)
 
-### [Job Files and how to Submit](https://github.com/gmihaila/unt_hpc/tree/master/job_file)
+### [Job Batch](https://github.com/gmihaila/unt_hpc/tree/master/job_file)
 
-### [Interactive Job Session](https://github.com/gmihaila/unt_hpc/tree/master/active_job)
+### [Job Interactive](https://github.com/gmihaila/unt_hpc/tree/master/active_job)
 
 ### [Python Toolkit](https://github.com/gmihaila/unt_hpc/tree/master/python)
 
+### [R Toolkit](https://github.com/gmihaila/unt_hpc/tree/master/r)
