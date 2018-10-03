@@ -20,3 +20,5 @@ In all these tutorials it is assumed you have some basic knowledge of how to use
 ### [Python Toolkit](https://github.com/gmihaila/unt_hpc/tree/master/python)
 
 ### [R Toolkit](https://github.com/gmihaila/unt_hpc/tree/master/r)
+
+### [Terminal Snippets](https://github.com/gmihaila/unt_hpc/tree/master/terminal_snippets)
