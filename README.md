@@ -15,7 +15,7 @@ In all these tutorials it is assumed you have some basic knowledge of how to use
 
 ### [Job Batch](https://github.com/gmihaila/unt_hpc/tree/master/job_file)
 
-### [Job Interactive](https://github.com/gmihaila/unt_hpc/tree/master/active_job)
+### [Job Interactive](https://github.com/gmihaila/unt_hpc/blob/master/active_job.md)
 
 ### [Python Toolkit](https://github.com/gmihaila/unt_hpc/tree/master/python)
 
