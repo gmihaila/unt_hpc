@@ -11,11 +11,11 @@ In all these tutorials it is assumed you have some basic knowledge of how to use
 
 ### [Apply for your account - Only UNT students](https://hpc.unt.edu/account-info)
 
-### [SSH Configure](https://github.com/gmihaila/unt_hpc/blob/master/ssh/README.md)
+### [SSH Configure](https://github.com/gmihaila/unt_hpc/tree/master/ssh_configure)
 
-### [Job Batch](https://github.com/gmihaila/unt_hpc/tree/master/job_file)
+### [Job Batch](https://github.com/gmihaila/unt_hpc/tree/master/job_batch)
 
-### [Job Interactive](https://github.com/gmihaila/unt_hpc/blob/master/active_job.md)
+### [Job Interactive](https://github.com/gmihaila/unt_hpc/blob/master/job_interactive.md)
 
 ### [Python Toolkit](https://github.com/gmihaila/unt_hpc/tree/master/python)
 
