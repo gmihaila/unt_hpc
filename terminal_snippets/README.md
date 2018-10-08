@@ -15,11 +15,12 @@
 
 **Kill a job. Users can kill their own jobs, root can kill any job.**
 
+
 ```
  $ scancel $JOB_ID
 ```
 
-** Hold a job:**
+**Hold a job:**
 
 ```
  $ scontrol hold $JOB_ID
