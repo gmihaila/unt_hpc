@@ -27,7 +27,7 @@
  $ scontrol hold $JOB_ID
 ```
 
-**Release a job: **
+**Release a job:**
 
 ```
  $ scontrol release $JOB_ID
