@@ -1,6 +1,5 @@
-## Python Code Snippets
+## Python Toolkit
 
-Feel free to run them in Google Colab for test.
+### Python snippets [here](https://github.com/gmihaila/snippets_py)
 
-You can copy - paste to your home directory on Talon.
 
