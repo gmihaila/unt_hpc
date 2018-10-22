@@ -148,4 +148,13 @@ $ ssh euid123@talon3.hpc.unt.edu slogin $NODE_NAME python < your_local_file.py
 
 If you require certain modules to be loaded, pre-load them in your .bashrc file - See previous.
 
+If you setup your [ssh shortcut](https://github.com/gmihaila/unt_hpc/tree/master/ssh_configure) it will be as easy as:
+
+
+
+```
+ $ ssh t3 slogin $NODE_NAME python < your_local_file.py
+```
+
+
 
