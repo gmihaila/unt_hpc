@@ -17,10 +17,10 @@ In all these tutorials it is assumed you have some basic knowledge of how to use
 
 ### [Job Interactive](https://github.com/gmihaila/unt_hpc/tree/master/job_interactive)
 
-### [Python Toolkit](https://github.com/gmihaila/unt_hpc/tree/master/python)
-
-### [R Toolkit](https://github.com/gmihaila/unt_hpc/tree/master/r)
-
 ### [Terminal Snippets](https://github.com/gmihaila/unt_hpc/tree/master/terminal_snippets)
 
 ### [Screen - keep terminal open](https://github.com/gmihaila/unt_hpc/blob/master/use_screen.md)
+
+### [Python Toolkit](https://github.com/gmihaila/unt_hpc/tree/master/python)
+
+### [R Toolkit](https://github.com/gmihaila/unt_hpc/tree/master/r)
