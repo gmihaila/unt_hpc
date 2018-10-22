@@ -23,4 +23,4 @@ In all these tutorials it is assumed you have some basic knowledge of how to use
 
 ### [Terminal Snippets](https://github.com/gmihaila/unt_hpc/tree/master/terminal_snippets)
 
-### [Use screen to keep terminal sesion open](https://github.com/gmihaila/unt_hpc/blob/master/use_screen.md)
+### [Screen - keep terminal open](https://github.com/gmihaila/unt_hpc/blob/master/use_screen.md)
