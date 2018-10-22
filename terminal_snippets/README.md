@@ -70,7 +70,7 @@ For example, to load python 3.6.5 anytime we login:
 
 ```
  $ scancel $JOB_ID
-```
+'''
 
 ** Hold a job:**
 
