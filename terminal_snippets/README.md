@@ -71,13 +71,13 @@ For example, to load python 3.6.5 anytime we login:
  $ scancel $JOB_ID
 ```
 
-** Hold a job:**
+**Hold a job:**
 ```
  $ scontrol hold $JOB_ID
 ```
 
 
-** Release a job:**
+**Release a job:**
 ```
  $ scontrol release $JOB_ID
  ```
