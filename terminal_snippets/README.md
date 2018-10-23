@@ -67,17 +67,20 @@ For example, to load python 3.6.5 anytime we login:
 ```
 
 **Kill a job. Users can kill their own jobs, root can kill any job.**
+
 ```
  $ scancel $JOB_ID
 ```
 
-**Hold a job:**
+** Hold a job:**
+
 ```
  $ scontrol hold $JOB_ID
 ```
 
 
-**Release a job:**
+** Release a job:**
+
 ```
  $ scontrol release $JOB_ID
  ```
@@ -108,6 +111,13 @@ For example, to load python 3.6.5 anytime we login:
 
 ```
  $ pidstat
+```
+
+**See GPU resources [IF IS A GPU NODE]:**
+
+
+```
+ $ nvidia-smi
 ```
 
 <br>
