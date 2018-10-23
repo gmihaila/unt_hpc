@@ -73,3 +73,18 @@ Now you just need to wait for email notification when node was allocated so you 
 This way you can shutdown your computer, or move to a different computer. It is also very useful when you have a bad internet connection, you can lose your place in the queue if terminal session ends!
 
 
+
+
+
+
+
+
+
+<br/>
+
+### [< Go Back](https://github.com/gmihaila/unt_hpc)
+
+
+
+
+
