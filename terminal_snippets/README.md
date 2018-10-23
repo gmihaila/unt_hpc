@@ -167,4 +167,4 @@ If you setup your [ssh shortcut](https://github.com/gmihaila/unt_hpc/tree/master
 
 <br/>
 
-### [< Go Back](https://github.com/gmihaila/unt_hpc/blob/master/python/README.md)
+### [< Go Back](https://github.com/gmihaila/unt_hpc)
