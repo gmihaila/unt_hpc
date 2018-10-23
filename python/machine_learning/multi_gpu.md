@@ -2,6 +2,10 @@
 
 <br>
 
+### Code example [here](https://github.com/gmihaila/unt_hpc/blob/master/python/machine_learning/multi_gpu.py)
+
+<br>
+
 ### IMPORTANT:
 ### Avoid interrupting a python file when using GPU's. Any unexpected interruption will leave the memory allocated on the GPU's.This will make the GPUs unusable and you will have to request another GPU node.
 
