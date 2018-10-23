@@ -1,5 +1,6 @@
 ## Keras with multi GPU
 
+### NOTE: Keras will use1 GPU by default if it's properly installed!
 
 If you want to use certain GPU's, specify the name of GPUs you want to use.
 
@@ -39,5 +40,6 @@ Then you can start coding your model in Keras and right before calling **compile
 **Make sure the gpus= is not greater than the number of gpu's you asked! **
 
 
-### These 3lines of code are the only thing you need to add in order to run you python Keras model on 2 or more GPUs!
+### These 3 lines of code are the only thing you need to add in order to run you python Keras model on 2 or more GPUs!
+
 
