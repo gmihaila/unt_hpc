@@ -1,4 +1,4 @@
-## Example of  job script:
+## Example of  Batch Job:
 
 
 ### Slurm Commands
@@ -68,9 +68,15 @@
  #SBATCH -C c6320
 ```
 
+* ####    Use GPUs:
+For example if you request **2 GPUs**
+```
+ #SBATCH --gres=gpu:2
+```
+
 * ####    Sets up email notification.
 ```
- #SBATCH --mail-user=user@unt.edu
+ #SBATCH --mail-user=user@my.unt.edu
 ```
 
 * ####    Email user when:
