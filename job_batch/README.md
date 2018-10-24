@@ -139,9 +139,9 @@ For example if you want to load certain version of **python**:
 
 ### There is no need to use all commands. Your job file can look as simple as:
 ```
- #SBATCH -J my_example_job
- #SBATCH -o ./out/example_job.o%j
- #SBATCH -e my_example_job.e%j
+ #SBATCH -J job_name
+ #SBATCH -o output_job.o%j
+ #SBATCH -e error_job.e%j
  #SBATCH -p public
  #SBATCH --qos general
  #SBATCH -N 1
