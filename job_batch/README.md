@@ -1,7 +1,7 @@
 ## Example of  Batch Job:
 
 
-### Slurm Commands
+### Slurm Commands to write in your *.job* file
 
 
 * #### Command used (always leave it like this):
