@@ -3,7 +3,7 @@
 <br>
 
 ### Code example [here](https://github.com/gmihaila/unt_hpc/blob/master/python/machine_learning/multi_gpu.py)
-
+### Job Batch with GPU example [here](https://github.com/gmihaila/unt_hpc/blob/master/python/machine_learning/job_gpus.job)
 <br>
 
 ### IMPORTANT:
