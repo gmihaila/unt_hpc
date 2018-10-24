@@ -6,6 +6,8 @@
 
 ### Keras GPU [here](https://github.com/gmihaila/unt_hpc/blob/master/python/machine_learning/multi_gpu.md/)
 
+### Python Machine Learning  [here](https://github.com/gmihaila/machine_learning_toolbox)
+
 <br/>
 
 ### [< Go Back](https://github.com/gmihaila/unt_hpc)
