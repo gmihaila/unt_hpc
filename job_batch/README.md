@@ -34,6 +34,7 @@
   * **general** - 72 hour and 560 CPU cores limit with default partition
   * **large** - limit to 20 nodes, unlimited hours, allow exclusive jobs and **low priority**
  
+ For example if you use **general**:
 ```
      #SBATCH --qos general
 ```
@@ -95,8 +96,9 @@ For example if you request **2 GPUs**
 
 ### Commands/process to execute on compute node:
 * #### Load Modules.
+For example if you want to load certain version of **python**:
    ```
-   module load python
+   module load python/3.6.5
   ```
   * **To see all modules available, type this in your terminal (NOT the job file):**
   ```
@@ -122,6 +124,9 @@ For example if you request **2 GPUs**
  cp /home/$USER/file_name /storage/scratch2/euid123/file_name
  cd  /storage/scratch2/euid123/
 ```
+
+      Where $USER is your EUID.
+
 * #### Running code:
 ```
  python file_name
