@@ -1,3 +1,7 @@
+# To get toy dataset use:
+# $ wget https://raw.githubusercontent.com/jbrownlee/Datasets/master/pima-indians-diabetes.data.csv
+
+
 import numpy as np
 import pandas as pd
 
