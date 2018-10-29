@@ -163,6 +163,15 @@ If you setup your [ssh shortcut](https://github.com/gmihaila/unt_hpc/tree/master
  $ ssh t3 slogin $NODE_NAME python < your_local_file.py
 ```
 
+If you need to use a dataset, you will need to change directories when ssh. To do this you have to cd first in the desired directory and then run the file:
+
+
+
+```
+ $ ssh t3 slogin $NODE_NAME "cd /home/euid/your_path ; python" < your_local_file.py
+```
+
+### NOTE: Remember to add any modules you want pre-loaded if you use this command!
 
 
 <br/>
