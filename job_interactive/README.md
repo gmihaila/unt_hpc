@@ -86,7 +86,7 @@ You can use same **Slurm Commands**:
    ```
 * ####    Use GPUs.
 ```
---gres=gpu: NUM_GPUS
+--gres=gpu:NUM_GPUS
 ```
 
 ### Login to your node:
