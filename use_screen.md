@@ -29,6 +29,14 @@ $ screen -S screen_name
 ```
 It will open up a new terminal window in the same current window with the screen_name (*it can be any name you want*) you specified.
 
+Make sure to run:
+
+```
+$ source ~/.bashrc
+```
+
+To have all the environment variables loaded!
+
 Here you can request a node, or just run any code. Once you want to log-out/**detach**, but keep the terminal running just type:
 
 ### CTRL + a + d
