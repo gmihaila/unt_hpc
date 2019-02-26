@@ -80,12 +80,9 @@ Now you just need to wait for email notification when node was allocated so you 
 
 This way you can shutdown your computer, or move to a different computer. It is also very useful when you have a bad internet connection, you can lose your place in the queue if terminal session ends!
 
-
-
-
-
-
-
+```
+$ screen -dmS gpu_screen srun -p public --qos general --mail-user=user@unt.edu --mail-type=ALL --gres=gpu:4 -N 1 --pty bash
+```
 
 
 <br/>
