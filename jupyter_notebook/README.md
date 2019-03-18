@@ -28,17 +28,15 @@ $ ssh YOUR_EUID@vis-02.acs.unt.edu
 $ ssh YOUR_EUID@vis-03.acs.unt.edu
 ```
 
- ### Load the appropriate module:
+### 1.3. Load the appropriate module:
 
   ```
   $ module load python/3.6.5
   ```
 
-  ## First time ONLY when you use Jupyter Notebook execute this step to
-  setup password for your Jupyter Notebook:
+## First time ONLY when you use Jupyter Notebook execute this step to setup password for your Jupyter Notebook:
 
   Type this in your terminal:
-
 
   ```
   $ jupyter notebook password
@@ -69,7 +67,7 @@ $ ssh YOUR_EUID@vis-03.acs.unt.edu
   to your password.
 
 
-  ### 1.3. Launch Jupyter Notebook:
+### 1.3. Launch Jupyter Notebook:
 
   Enter the following command in your terminal:
 
@@ -86,8 +84,7 @@ $ ssh YOUR_EUID@vis-03.acs.unt.edu
   As long as you want to use Jupyter Notebook you need to keep this
   terminal open.
 
-  ### If you close this terminal you will lose your Jupyter Notebook
-  session and any unsaved information!
+  ### If you close this terminal you will lose your Jupyter Notebook session and any unsaved information!
 
   Keep track of the port that the notebook is running on. in the window
   you see
@@ -98,8 +95,7 @@ $ ssh YOUR_EUID@vis-03.acs.unt.edu
   $ REFRESH(1 sec): http://localhost:8891/tree
   ```
 
-  ### 8891 is the port number in this case. In your case it can be a
-  different number! That will be YOUR_PORT_NUMBER
+### 8891 is the port number in this case. In your case it can be a different number! That will be YOUR_PORT_NUMBER
 
 
 
@@ -119,72 +115,67 @@ $ ssh YOUR_EUID@vis-03.acs.unt.edu
   ssh -L 8891:localhost:8891 EUID@vis-01.acs.unt.edu
   ```
 
-  You will replace this number with the one generated in your Jupyter
-  Notebook terminal window.
+  You will replace this number with the one generated in your Jupyter Notebook terminal window.
 
-  This will forward the port of the Jupyter Notebook running on talon to
-  your local machine.
+  This will forward the port of the Jupyter Notebook running on talon to your local machine.
 
 
-  ### 1.5. Double check...
+### 1.5. Double check...
 
   Now you should have 2 terminals running:
 
-  * One terminal with the Jupyter Notebook terminal window like in **1.3.
-    Launch Jupyter Notebook**
+  * One terminal with the Jupyter Notebook terminal window like in **1.3. Launch Jupyter Notebook**
     ![alt
     text](https://raw.githubusercontent.com/gmihaila/unt_hpc/master/misc/screenshoot_jupyter.png)
 
-    * Another terminal that you used to login with like in **1.4 Forward
-      Jupyter Notebook to your local machine browser**:
+  * Another terminal that you used to login with like in **1.4 Forward Jupyter Notebook to your local machine browser**:
 
-      ```
-      $ ssh -L YOUR_PORT_NUMBER:localhost:YOUR_PORT_NUMBER
-      YOUR_EUDI@vis-01.acs.unt.edu
-      ```
+  ```
+  $ ssh -L YOUR_PORT_NUMBER:localhost:YOUR_PORT_NUMBER
+  YOUR_EUDI@vis-01.acs.unt.edu
+  ```
 
-      These 2 terminal are the ones keeping your Jupyter Notebook alive
-      and running on your local machine!
+  These 2 terminal are the ones keeping your Jupyter Notebook alive and running on your local machine!
 
 
-      ### 1.6 Access your Jupyter Notebook:
+### 1.6 Access your Jupyter Notebook:
 
-      Now to access the Jupyter Notebook, open any browser (Chrome,
-      Mozilla etc) and type:
+   Now to access the Jupyter Notebook, open any browser (Chrome,
+   Mozilla etc) and type:
 
 
 
-      ```
-      http://localhost:YOUR_PORT_NUMBER
-      ```
+   ```
+   http://localhost:YOUR_PORT_NUMBER
+   ```
 
-      In my case, my port number is 8891 so I will have to use:
+   In my case, my port number is 8891 so I will have to use:
 
-      ```
-      http://localhost:8891
-      ```
-      You will see a webpage like this:
+   ```
+   http://localhost:8891
+   ```
+   You will see a webpage like this:
 
-      ![alt
-      text](https://raw.githubusercontent.com/gmihaila/unt_hpc/master/misc/screenshot_loginwindow_jupyter.png)
+   ![alt
+   text](https://raw.githubusercontent.com/gmihaila/unt_hpc/master/misc/screenshot_loginwindow_jupyter.png)
 
-      This is where you will enter your password that you created when
-      you used
+   This is where you will enter your password that you created when
+   you used
 
-      ```
-      $ jupyter notebook password
-      ```
+   ```
+   $ jupyter notebook password
+   ```
 
-      Now you are inside your Jupyer Notebook on your local machine
-      browser that runs on Talon! Cool!
+   Now you are inside your Jupyer Notebook on your local machine
+   browser that runs on Talon! Cool!
 
-      This is how mine looks like after login:
+   This is how mine looks like after login:
 
-      ![alt
-      text](https://raw.githubusercontent.com/gmihaila/unt_hpc/master/misc/screenshot_logged_jupyter.png)
+   ![alt
+   text](https://raw.githubusercontent.com/gmihaila/unt_hpc/master/misc/screenshot_logged_jupyter.png)
 
-      I only have bin folder in this image. Yours will be different, you
-      will see all your directories from Talon.
+   I only have bin folder in this image. Yours will be different, you
+   will see all your directories from Talon.
 
 
 
