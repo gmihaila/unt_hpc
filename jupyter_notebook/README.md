@@ -2,11 +2,11 @@
 
 ### You can run Jupyter Notebook on Talon in a few ways:
 
-* 1. Run on an interactive node: need less computing resources, used more for prototyping.
+* 1.Run on an interactive node: need less computing resources, used more for prototyping.
 
-* 2. Run as a job file: more computing resources, ideal for running heavy experiments.
+* 2.Run as a job file: more computing resources, ideal for running heavy experiments.
 
-* 3. Run as a job file with GPUs: use GPUs on your notebook, perfect for very heavy Deep Learning experiments or any GPU related code.
+* 3.Run as a job file with GPUs: use GPUs on your notebook, perfect for very heavy Deep Learning experiments or any GPU related code.
 
 
 
