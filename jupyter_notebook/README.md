@@ -42,8 +42,7 @@ $ ssh YOUR_EUID@vis-03.acs.unt.edu
   $ jupyter notebook password
   ```
 
-  Then enter a password. This will be the password necessary to access
-  Jupyter Notebook. THIS IS NOT YOUR EUID PASSWORD.
+  Then enter a password. This will be the password necessary to access Jupyter Notebook. THIS IS NOT YOUR EUID PASSWORD.
 
   You will have to type twice, for:
 
@@ -62,8 +61,7 @@ $ ssh YOUR_EUID@vis-03.acs.unt.edu
   [NotebookPasswordApp] Wrote hashed password to /home/YOUR_EUID/.jupyter/jupyter_notebook_config.json
   ```
 
-  This creates a configuration file jupyter_notebook_config.json related
-  to your password.
+  This creates a configuration file jupyter_notebook_config.json related to your password.
 
 
 ### 1.3. Launch Jupyter Notebook:
@@ -74,8 +72,7 @@ $ ssh YOUR_EUID@vis-03.acs.unt.edu
   $ jupyter notebook
   ```
 
-  This will spawn a Jupyter Notebook terminal window that looks like
-  this:
+  This will spawn a Jupyter Notebook terminal window that looks like this:
 
   ![alt text](https://raw.githubusercontent.com/gmihaila/unt_hpc/master/misc/screenshoot_jupyter.png)
 
@@ -133,8 +130,6 @@ $ ssh YOUR_EUID@vis-03.acs.unt.edu
 ### 1.6 Access your Jupyter Notebook:
 
    Now to access the Jupyter Notebook, open any browser (Chrome,Mozilla etc) and type:
-
-
 
    ```
    http://localhost:YOUR_PORT_NUMBER
