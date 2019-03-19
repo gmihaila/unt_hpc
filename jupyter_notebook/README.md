@@ -14,7 +14,7 @@
 ## 1. Run on an interactive node
 
 
-### 1.2. Login to a Viz Node. use ONE of the following:
+### 1.2. Login to a Viz Node. Use ONE of the following:
 
 ```
 $ ssh YOUR_EUID@vis-01.acs.unt.edu
