@@ -162,7 +162,43 @@ $ ssh YOUR_EUID@vis-03.acs.unt.edu
 
 ## Run as a job file 
 
-  Working on
+  ### 1.2. Login to Talon using a temrinal (Linux or Mac) or Putty (Windows):
+
+```
+$ ssh YOUR_EUID@talon3.hpc.unt.edu
+```
+
+Now you will need to create a .job file just like a batch submisison job (Check [this](https://github.com/gmihaila/unt_hpc/tree/master/job_batch) out if not familiar with job submissions on Talon)
+
+Your .job file should look like this:
+
+
+```
+  #!/bin/bash
+  #SBATCH -p public
+  #SBATCH --qos general
+  #SBATCH -N 1
+  #SBATCH --ntasks-per-node=28
+  #SBATCH -C c6320
+
+  module load python/3.6.5
+  unset XDG_RUNTIME_DIR
+  jupyter notebook --no-browser --ip=0.0.0.0
+```
+
+
+The first 6 lines are configurable to anything you want. See [this](https://github.com/gmihaila/unt_hpc/tree/master/job_batch) for more details.
+
+The part that is very important in the job file is:
+
+```
+  module load python/3.6.5
+  unset XDG_RUNTIME_DIR
+  jupyter notebook --no-browser --ip=0.0.0.0
+```
+
+
+
 
 
 ## Notebooks on GPUs (use GPUs on your notebook)
