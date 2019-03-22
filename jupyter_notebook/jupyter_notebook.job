@@ -1,0 +1,11 @@
+#!/bin/bash
+#SBATCH -p public
+#SBATCH --qos general
+#SBATCH -N 1
+#SBATCH --ntasks-per-node=28
+#SBATCH -C c6320
+
+module load python/3.6.5
+
+unset XDG_RUNTIME_DIR
+jupyter notebook --no-browser --ip=0.0.0.0
