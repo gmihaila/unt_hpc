@@ -11,7 +11,7 @@
   * More computing resources, ideal for running heavy experiments.
 
 * ### [Run as a job file with GPUs](https://github.com/gmihaila/unt_hpc/blob/master/jupyter_notebook/jupyter_job_gpu.md)
- * Use GPUs on your notebook, perfect for very heavy Deep Learning experiments or any GPU related code.
+  * Use GPUs on your notebook, perfect for very heavy Deep Learning experiments or any GPU related code.
 
 
 <br/>
