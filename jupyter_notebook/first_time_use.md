@@ -1,6 +1,6 @@
-## First time ONLY Setup:
+## First time ONLY Jupyter Notebook Setup:
 
-### When you use Jupyter Notebook execute this step to setup password for your Jupyter Notebook
+### Execute this step to setup password for your Jupyter Notebook.
 
 ### Login to a Viz Node. Use ONE of the following:
 
