@@ -148,6 +148,6 @@ $ ssh -L 8888:c32-9-29:8888 YOUR_EUID@vis-01.acs.unt.edu
 
 </br>
 
-### [< Jupyter Tutorial](https://github.com/gmihaila/unt_hpc)
+### [< Jupyter Tutorial](https://github.com/gmihaila/unt_hpc/tree/master/jupyter_notebook)
 
 ### [< Main Page](https://github.com/gmihaila/unt_hpc)
