@@ -159,7 +159,8 @@ $ ssh -L 8888:gpu-8-7-1:8888 YOUR_EUID@vis-01.acs.unt.edu
 
 ### Enjoy!
 
+</br>
 
-### [< Jupyter Tutorial](https://github.com/gmihaila/unt_hpc)
+### [< Jupyter Tutorial](https://github.com/gmihaila/unt_hpc/tree/master/jupyter_notebook)
 
 ### [< Main Page](https://github.com/gmihaila/unt_hpc)
