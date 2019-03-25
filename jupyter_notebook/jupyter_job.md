@@ -143,7 +143,6 @@ $ ssh -L 8888:c32-9-29:8888 YOUR_EUID@vis-01.acs.unt.edu
 
    I only have bin folder in this image. Yours will be different, you will see all your directories from Talon.
 
-
 ### Enjoy!
 
 </br>
