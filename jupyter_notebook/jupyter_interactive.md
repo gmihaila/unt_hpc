@@ -30,9 +30,7 @@ $ ssh YOUR_EUID@vis-03.acs.unt.edu
   $ jupyter notebook
   ```
 
-  This will spawn a Jupyter Notebook terminal window that looks like this:
-
-  ![alt text](https://raw.githubusercontent.com/gmihaila/unt_hpc/master/misc/screenshoot_jupyter.png)
+  This will spawn a Jupyter Notebook terminal window that looks like this: ![alt text](https://raw.githubusercontent.com/gmihaila/unt_hpc/master/misc/screenshoot_jupyter.png)
 
   As long as you want to use Jupyter Notebook you need to keep this terminal open.
 
