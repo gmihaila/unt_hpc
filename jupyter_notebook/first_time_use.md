@@ -4,17 +4,17 @@
 
 ### Login to a Viz Node. Use ONE of the following:
 
-```
-$ ssh YOUR_EUID@vis-01.acs.unt.edu
-```
+  ```
+  $ ssh YOUR_EUID@vis-01.acs.unt.edu
+  ```
 
-```
-$ ssh YOUR_EUID@vis-02.acs.unt.edu
-```
+  ```
+  $ ssh YOUR_EUID@vis-02.acs.unt.edu
+  ```
 
-```
-$ ssh YOUR_EUID@vis-03.acs.unt.edu
-```
+  ```
+  $ ssh YOUR_EUID@vis-03.acs.unt.edu
+  ```
 
 ### Load the appropriate module:
 
@@ -53,6 +53,6 @@ $ ssh YOUR_EUID@vis-03.acs.unt.edu
   
   </br>
 
-### [< Jupyter Tutorial](https://github.com/gmihaila/unt_hpc)
+### [< Jupyter Tutorial](https://github.com/gmihaila/unt_hpc/tree/master/python)
 
 ### [< Main Page](https://github.com/gmihaila/unt_hpc)
