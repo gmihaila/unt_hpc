@@ -53,6 +53,6 @@
   
   </br>
 
-### [< Jupyter Tutorial](https://github.com/gmihaila/unt_hpc/tree/master/python)
+### [< Jupyter Tutorial](https://github.com/gmihaila/unt_hpc/tree/master/jupyter_notebook)
 
 ### [< Main Page](https://github.com/gmihaila/unt_hpc)
