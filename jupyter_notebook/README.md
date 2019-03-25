@@ -1,6 +1,6 @@
 # Jupyter Notebooks on Talon UNT
 
-* ### [First time ONLY Setup !!](https://github.com/gmihaila/unt_hpc/blob/master/jupyter_notebook/first_time_use.md)
+ ### [* First time ONLY Setup !!](https://github.com/gmihaila/unt_hpc/blob/master/jupyter_notebook/first_time_use.md)
 
 ## You can run Jupyter Notebook on Talon in a few ways:
 
