@@ -116,6 +116,6 @@ $ ssh YOUR_EUID@vis-03.acs.unt.edu
 
 </br>
 
-### [< Jupyter Tutorial](https://github.com/gmihaila/unt_hpc)
+### [< Jupyter Tutorial](https://github.com/gmihaila/unt_hpc/tree/master/jupyter_notebook)
 
 ### [< Main Page](https://github.com/gmihaila/unt_hpc)
