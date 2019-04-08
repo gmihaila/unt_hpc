@@ -13,6 +13,8 @@ In all these tutorials it is assumed you have some basic knowledge of how to use
 
 ### [SSH Configure](https://github.com/gmihaila/unt_hpc/tree/master/ssh_configure)
 
+### [SSH using Google Chrome browser](https://github.com/gmihaila/unt_hpc/tree/master/chrome_plugin)
+
 ### [Job Batch](https://github.com/gmihaila/unt_hpc/tree/master/job_batch)
 
 ### [Job Interactive](https://github.com/gmihaila/unt_hpc/tree/master/job_interactive)
