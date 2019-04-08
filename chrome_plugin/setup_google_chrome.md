@@ -29,7 +29,7 @@ Once extension is installed you will see a new tab open with an **icon to the Se
 
 There are 2 way (that I know of) to launch it:
 
-* From the apps page: [chrome://apps/](chrome://apps/)
+* From the apps page: chrome://apps/
 
 * Type ssh in the browser and hit **Tab** to select the  Secure Shell App.To launch it hit **Enter**.
 
