@@ -29,7 +29,7 @@ Once extension is installed you will see a new tab open with an **icon to the Se
 
 There are 2 way (that I know of) to launch it:
 
-* From the apps page: chrome://apps/
+* From the apps page: [chrome://apps/](chrome://apps/)
 
 * Type ssh in the browser and hit **Tab** to select the  Secure Shell App.To launch it hit **Enter**.
 
@@ -41,7 +41,7 @@ You should see a window like this:
 
 ![alt text](https://raw.githubusercontent.com/gmihaila/unt_hpc/master/misc/chrome_ssh.png)
 
-To ssh in Talon, type your EUID where it says *username@hostname or free from text* This will automatically fill in username and hostname fields.
+To ssh in Talon, type your **EUID@talon3.hpc.unt.edu** where it says *username@hostname or free from text* This will automatically fill in username and hostname fields.
 
 Then enter 22 for the *port* field.
 
