@@ -5,7 +5,7 @@
 This is a plugin made by Google itself (reliable and secure).
 ![alt text](https://raw.githubusercontent.com/gmihaila/unt_hpc/master/misc/chrome_ssh_desc.png)
 
-Make sure you have** Google Chrome** browser installed and opened.
+Make sure you have **Google Chrome** browser installed and opened.
 
 
 Go to google extension page and search for Secure Shell [here](https://chrome.google.com/webstore/detail/secure-shell-app/pnhechapfaindjhompbnflcldabbghjo?hl=en) or just google *'chrome secure shell app*'
