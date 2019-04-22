@@ -146,6 +146,7 @@ For example if you want to load certain version of **python**:
  #SBATCH --qos general
  #SBATCH -N 1
  #SBATCH -n 1
+ #SBATCH -C c6320
 
  module load python
 
