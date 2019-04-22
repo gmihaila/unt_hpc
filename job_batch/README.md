@@ -64,7 +64,7 @@
  #SBATCH --ntasks-per-node 28
 ```
 
-* ####    Requests the c6320 compute nodes. (Also can request r420, r720, and r730 compute nodes). [More Info](https://hpc.unt.edu/compute-nodes)
+* ####    Requests the c6320 compute nodes. (Also can request r420, r720, and r730 compute nodes). [More Info](https://hpc.unt.edu/talon-compute-nodes)
 ```
  #SBATCH -C c6320
 ```
