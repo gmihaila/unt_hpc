@@ -1,4 +1,6 @@
-# Talon Jupyter Notebook on Google Chrome  (interactive session)
+# Talon Jupyter Notebook on Google Chrome  
+
+# [Interactive session]
 
 ## Open new tab on Google Chrome browser
 
