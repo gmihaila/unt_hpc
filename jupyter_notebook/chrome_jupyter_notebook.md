@@ -1,4 +1,4 @@
-# Talon Jupyter Notebook on Google Chrome
+# Talon Jupyter Notebook on Google Chrome  (interactive session)
 
 ## Open new tab on Google Chrome browser
 
@@ -137,3 +137,9 @@ So your window should look like this:
 ### [< Jupyter Tutorial](https://github.com/gmihaila/unt_hpc/tree/master/jupyter_notebook)
 
 ### [< Main Page](https://github.com/gmihaila/unt_hpc)
+
+
+
+
+
+
