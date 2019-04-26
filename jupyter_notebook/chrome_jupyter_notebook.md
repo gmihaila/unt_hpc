@@ -136,7 +136,7 @@ So your window should look like this:
 
 </br>
 
-### [< Jupyter Tutorial](https://github.com/gmihaila/unt_hpc/tree/master/jupyter_notebook)
+### [< Google Chrome Tutorial](https://github.com/gmihaila/unt_hpc/tree/master/chrome_plugin)
 
 ### [< Main Page](https://github.com/gmihaila/unt_hpc)
 
