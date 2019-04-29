@@ -22,14 +22,19 @@ Easiest way is to use **Google Chrome browser**.
 
 ## Open a notebook
 
-Navigate to today's tutorial:
-
-
+To download all materials:
 
 ```
-$ git clone
-$ cd 
+$ git clone https://github.com/gmihaila/unt_hpc.git
 ```
+
+Path to today workshop files:
+
+```
+$ cd unt_hpc/tutorial_materials/may_1_2019/
+```
+
+
 
 Double click on 
  
@@ -38,4 +43,6 @@ Double click on
 notebook_diabetic_nn.ipynb
 ```
  to open the notebook.
-
+ 
+ 
+ Now follow the code.
