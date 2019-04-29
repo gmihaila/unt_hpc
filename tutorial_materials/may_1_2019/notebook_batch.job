@@ -1,0 +1,13 @@
+#!/bin/bash
+#SBATCH -p public
+#SBATCH --qos general
+#SBATCH -N 1
+#SBATCH --ntasks-per-node=28
+#SBATCH -C c6320
+#SBATCH --mail-user=georgemihaila@my.unt.edu
+#SBATCH --mail-type=ALL
+
+module load keras/2.2.0
+
+unset XDG_RUNTIME_DIR
+jupyter notebook --no-browser --ip=0.0.0.0
