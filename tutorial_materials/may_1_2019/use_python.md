@@ -214,6 +214,18 @@ $ module load pytorch/1.0.1
 
 ## Predict diabetes using Keras
 
+To download all materials:
+
+```
+$ git clone https://github.com/gmihaila/unt_hpc.git
+```
+
+Path to today workshop files:
+
+```
+$ cd unt_hpc/tutorial_materials/may_1_2019/
+```
+
 ### Iteractive sesion:
 
 Get a compute node:
