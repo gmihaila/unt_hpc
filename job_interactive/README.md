@@ -8,7 +8,7 @@ Interactive job sessions can be used on Talon if you need to compile or test sof
 
 
 ```
- $ srun -p public --qos general -N 1 -C c6320  --pty bash
+ $ srun -p public --qos general -C c6320  --pty bash
  
 ```
 This launches an interactive job session and lanches a bash shell to a compute node. From there, you can execute software and shell commands that would otherwise not be allowed on the Talon login nodes.
