@@ -136,7 +136,7 @@ Find out your job id:
 
 
 ```
- $ srun -p public --qos general --mail-user=user@unt.edu --mail-type=ALL -N 1 --pty bash
+ $ srun -p public --qos general --mail-user=user@unt.edu --mail-type=ALL -C c6320 --pty bash
 ```
 #### This is very useful because it notifies you when your node has been allocated to you so you can start work!
 
