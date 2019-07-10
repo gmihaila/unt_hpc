@@ -6,7 +6,7 @@
 
 Welcome to DSA!
 
-This repository is designed to provide useful toolkit to do Data Science on UNT Talon supercomputer ** Only MacOS or Linux supported for now here**.
+This repository is designed to provide useful toolkit to do Data Science on UNT Talon supercomputer **Only MacOS or Linux supported for now here**.
 In all these tutorials it is assumed you have some basic knowledge of how to use Linux terminal. If you are not confident in using this, you can follow some useful tips  [here](https://www.howtogeek.com/140679/beginner-geek-how-to-start-using-the-linux-terminal/)
 
 ### [Apply for your account - Only UNT students](https://hpc.unt.edu/account-info)
