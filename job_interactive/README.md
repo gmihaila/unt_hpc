@@ -22,12 +22,12 @@ You can use same **Slurm Commands**:
   -p public
 ```
 
-* ####    **[FOR GPU ONLY]**Contains the r730 GPU compute nodes. Limit to 3 compute nodes and 1 week No QOS specification.
+* ####    **[FOR GPU ONLY]** Contains the r730 GPU compute nodes. Limit to 3 compute nodes and 1 week No QOS specification.
 ```
   -p gpu
 ```
 
-* ####    **[FOR GPU ONLY]**Contains the r720 compute nodes that have 512GB of memory Limit to 2 compute nodes and 1 week time No QOS specification 
+* ####    **[FOR GPU ONLY]** Contains the r720 compute nodes that have 512GB of memory Limit to 2 compute nodes and 1 week time No QOS specification 
 ```
   -p bigmem
 ```
