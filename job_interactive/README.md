@@ -17,9 +17,19 @@ You can use same **Slurm Commands**:
 
 
 
-* ####    Defines the partition which may be used to execute this job (Always keep public).
+* ####    **[FOR CPU ONLY]** Defines the partition which may be used to execute this job (Always keep public for CPU).
 ```
   -p public
+```
+
+* ####    **[FOR GPU ONLY]**Contains the r730 GPU compute nodes. Limit to 3 compute nodes and 1 week No QOS specification.
+```
+  -p gpu
+```
+
+* ####    **[FOR GPU ONLY]**Contains the r720 compute nodes that have 512GB of memory Limit to 2 compute nodes and 1 week time No QOS specification 
+```
+  -p bigmem
 ```
 
 * ####    Defines the job name - it can be any name you want
