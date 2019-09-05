@@ -70,6 +70,7 @@ This is very useful when you are doing an interactive job.
 
 ### srun + screen + detach
 
+### CPU Screen
 
 ```
 $ screen -dmS screen_name srun -p public --qos general --mail-user=user@unt.edu --mail-type=ALL -N 1 --pty bash
@@ -80,8 +81,10 @@ Now you just need to wait for email notification when node was allocated so you 
 
 This way you can shutdown your computer, or move to a different computer. It is also very useful when you have a bad internet connection, you can lose your place in the queue if terminal session ends!
 
+### GPU Screen
+
 ```
-$ screen -dmS gpu_screen srun -p public --qos general --mail-user=user@unt.edu --mail-type=ALL --gres=gpu:4 -N 1 --pty bash
+$ screen -dmS gpu_screen srun -p gpu --mail-user=user@unt.edu --mail-type=ALL --gres=gpu:4 -N 1 --pty bash
 ```
 
 
