@@ -9,6 +9,8 @@
  #!/bin/bash
 ```
 
+Check our [UNT website](https://hpc.unt.edu/userguide#partitions)
+
 * ####    **[FOR CPU ONLY]** Defines the partition which may be used to execute this job (Always keep public for CPU).
 ```
   -p public
