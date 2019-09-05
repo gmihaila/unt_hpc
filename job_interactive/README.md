@@ -14,6 +14,7 @@ Interactive job sessions can be used on Talon if you need to compile or test sof
 This launches an interactive job session and lanches a bash shell to a compute node. From there, you can execute software and shell commands that would otherwise not be allowed on the Talon login nodes.
 
 You can use same **Slurm Commands**:
+Check our [UNT website](https://hpc.unt.edu/userguide#partitions)
 
 
 
