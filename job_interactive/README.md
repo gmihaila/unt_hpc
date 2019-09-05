@@ -142,12 +142,18 @@ Find out your job id:
  $ scontrol release $JOB_ID
 ```
 
-### Example of requesting 1 node with email notificaiton:
-
+### Example of requesting 1 node with email notificaiton for CPU:
 
 ```
  $ srun -p public --qos general --mail-user=user@unt.edu --mail-type=ALL -N 1 -C c6320 --pty bash
 ```
+
+### Example of requesting 1 node with email notificaiton for GPU:
+
+```
+ $ srun -p gpu --mail-user=user@unt.edu --mail-type=ALL -N 1 --pty bash
+```
+
 #### This is very useful because it notifies you when your node has been allocated to you so you can start work!
 
 
