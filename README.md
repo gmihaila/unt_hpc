@@ -15,6 +15,8 @@ In all these tutorials it is assumed you have some basic knowledge of how to use
 
 ### [SSH using Google Chrome browser](https://github.com/gmihaila/unt_hpc/tree/master/chrome_plugin)
 
+### [Use PyCharm on Talon](https://github.com/gmihaila/unt_hpc/blob/master/pycharm.md)
+
 ### [Job Batch](https://github.com/gmihaila/unt_hpc/tree/master/job_batch)
 
 ### [Job Interactive](https://github.com/gmihaila/unt_hpc/tree/master/job_interactive)
