@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<!-- Sorry no IE7 support! -->
+<!-- @see http://foundation.zurb.com/docs/index.html#basicHTMLMarkup -->
+
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" dir="ltr"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" dir="ltr"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<link rel="shortcut icon" href="https://hpc.unt.edu/sites/all/themes/unt_sub/favicon.ico" />
+<link rel="shortlink" href="/node/142" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="/account-request" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Talon JupyterNotebook</title>
+
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="//webassets.unt.edu/images/d7foundation/favicons/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+  <style>
+  .loader {
+  border: 20px solid #f3f3f3;
+  border-radius: 80%;
+  border-top: 20px solid #3498db;
+  width: 20px;
+  height: 20px;
+  -webkit-animation: spin 2s linear infinite; /* Safari */
+  animation: spin 2s linear infinite;
+  }
+
+  /* Safari */
+  @-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+  }
+
+  @keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+  }
+  </style>
+
+  <style>
+@import url("https://hpc.unt.edu/modules/system/system.base.css?pncinl");
+@import url("https://hpc.unt.edu/modules/system/system.messages.css?pncinl");
+@import url("https://hpc.unt.edu/modules/system/system.theme.css?pncinl");
+</style>
+<style>
+@import url("https://hpc.unt.edu/profiles/foundation_profile/modules/contrib/calendar/css/calendar_multiday.css?pncinl");
+@import url("https://hpc.unt.edu/profiles/foundation_profile/modules/contrib/date/date_api/date.css?pncinl");
+@import url("https://hpc.unt.edu/profiles/foundation_profile/modules/contrib/date/date_popup/themes/datepicker.1.7.css?pncinl");
+@import url("https://hpc.unt.edu/modules/field/theme/field.css?pncinl");
+@import url("https://hpc.unt.edu/modules/node/node.css?pncinl");
+@import url("https://hpc.unt.edu/modules/search/search.css?pncinl");
+@import url("https://hpc.unt.edu/modules/user/user.css?pncinl");
+@import url("https://hpc.unt.edu/profiles/foundation_profile/modules/wdc_feeds/wdc_feeds.css?pncinl");
+@import url("https://hpc.unt.edu/profiles/foundation_profile/modules/wdc_hero_feature/css/wdc_hero_feature.css?pncinl");
+@import url("https://hpc.unt.edu/sites/all/modules/wdc_hero_video/css/wdc_hero_video.css?pncinl");
+@import url("https://hpc.unt.edu/profiles/foundation_profile/modules/contrib/views/css/views.css?pncinl");
+@import url("https://hpc.unt.edu/profiles/foundation_profile/modules/contrib/ckeditor/css/ckeditor.css?pncinl");
+</style>
+<style>
+@import url("https://hpc.unt.edu/profiles/foundation_profile/modules/contrib/ctools/css/ctools.css?pncinl");
+@import url("https://hpc.unt.edu/sites/all/modules/panels/css/panels.css?pncinl");
+@import url("https://hpc.unt.edu/sites/all/libraries/nivo-slider/themes/default/default.css?pncinl");
+@import url("https://hpc.unt.edu/sites/all/libraries/nivo-slider/nivo-slider.css?pncinl");
+</style>
+<style>
+@import url("https://hpc.unt.edu/profiles/foundation_profile/themes/unt_foundation/css/unt_foundation.css?pncinl");
+@import url("https://hpc.unt.edu/sites/all/themes/unt_sub/css/unt_sub.css?pncinl");
+</style>
+
+  <!--link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"-->
+
+	<!--link rel="shortcut icon" href="https://www.unt.edu/sites/all/themes/unt_foundation/favicons/favicon.ico"-->
+
+
+
+	<script>document.cookie='resolution='+Math.max(screen.width,screen.height)+'; path=/';</script>
+
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script>window.jQuery || document.write("<script src='/profiles/foundation_profile/modules/contrib/jquery_update/replace/jquery/1.10/jquery.min.js'>\x3C/script>")</script>
+<script src="https://hpc.unt.edu/misc/jquery.once.js?v=1.2"></script>
+<script src="https://hpc.unt.edu/misc/drupal.js?pncinl"></script>
+<script src="https://hpc.unt.edu/profiles/foundation_profile/modules/wdc_hero_feature/js/parallax.min.js?pncinl"></script>
+<script src="https://hpc.unt.edu/sites/all/modules/nivo_slider/js/nivo_slider.js?pncinl"></script>
+<script src="https://hpc.unt.edu/sites/all/libraries/nivo-slider/jquery.nivo.slider.pack.js?pncinl"></script>
+<script src="https://hpc.unt.edu/profiles/foundation_profile/themes/zurb_foundation/js/vendor/modernizr.js?pncinl"></script>
+<script src="https://hpc.unt.edu/profiles/foundation_profile/themes/unt_foundation/js/foundation.min.js?pncinl"></script>
+<script src="https://hpc.unt.edu/profiles/foundation_profile/themes/unt_foundation/js/libs.min.js?pncinl"></script>
+<script src="https://hpc.unt.edu/profiles/foundation_profile/themes/unt_foundation/js/urcm_analytics.js?pncinl"></script>
+<script src="https://hpc.unt.edu/profiles/foundation_profile/themes/unt_foundation/js/app.min.js?pncinl"></script>
+<script>jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"unt_sub","theme_token":"ejPoQQszeyoCSzKiuk8WMC1TF2cgQs6TfA9eBGPwHTM","js":{"\/\/ajax.googleapis.com\/ajax\/libs\/jquery\/1.10.2\/jquery.min.js":1,"0":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"profiles\/foundation_profile\/modules\/wdc_hero_feature\/js\/parallax.min.js":1,"sites\/all\/modules\/nivo_slider\/js\/nivo_slider.js":1,"sites\/all\/libraries\/nivo-slider\/jquery.nivo.slider.pack.js":1,"profiles\/foundation_profile\/themes\/zurb_foundation\/js\/vendor\/modernizr.js":1,"profiles\/foundation_profile\/themes\/unt_foundation\/js\/foundation.min.js":1,"profiles\/foundation_profile\/themes\/unt_foundation\/js\/libs.min.js":1,"profiles\/foundation_profile\/themes\/unt_foundation\/js\/urcm_analytics.js":1,"profiles\/foundation_profile\/themes\/unt_foundation\/js\/app.min.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"profiles\/foundation_profile\/modules\/contrib\/calendar\/css\/calendar_multiday.css":1,"profiles\/foundation_profile\/modules\/contrib\/date\/date_api\/date.css":1,"profiles\/foundation_profile\/modules\/contrib\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"profiles\/foundation_profile\/modules\/wdc_feeds\/wdc_feeds.css":1,"profiles\/foundation_profile\/modules\/wdc_hero_feature\/css\/wdc_hero_feature.css":1,"sites\/all\/modules\/wdc_hero_video\/css\/wdc_hero_video.css":1,"profiles\/foundation_profile\/modules\/contrib\/views\/css\/views.css":1,"profiles\/foundation_profile\/modules\/contrib\/ckeditor\/css\/ckeditor.css":1,"profiles\/foundation_profile\/modules\/contrib\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/panels\/css\/panels.css":1,"sites\/all\/libraries\/nivo-slider\/themes\/default\/default.css":1,"sites\/all\/libraries\/nivo-slider\/nivo-slider.css":1,"profiles\/foundation_profile\/themes\/unt_foundation\/css\/normalize.css":1,"profiles\/foundation_profile\/themes\/unt_foundation\/css\/foundation.min.css":1,"profiles\/foundation_profile\/themes\/unt_foundation\/css\/unt_foundation.css":1,"sites\/all\/themes\/unt_sub\/css\/greenlight-sub-alpha-deault.css":1,"sites\/all\/themes\/unt_sub\/css\/global-sub.css":1,"sites\/all\/themes\/unt_sub\/css\/unt_sub.css":1}},"urlIsAjaxTrusted":{"\/account-request":true},"nivo_slider":{"effect":"random","slices":15,"boxCols":8,"boxRows":4,"animSpeed":500,"pauseTime":3000,"startSlide":0,"directionNav":true,"controlNav":true,"controlNavThumbs":false,"pauseOnHover":true,"manualAdvance":false,"prevText":"Prev","nextText":"Next","randomStart":false}});</script>
+
+  <script src="https://use.fontawesome.com/69a1bbba1e.js"></script>
+
+
+  <!--[if lt IE 9]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+</head>
+<body>
+  <div id="skip" class="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+  </div>
+
+<div role="document" class="page">
+
+  <header role="banner" class="l-header">
+
+    <!-- TOP BAR - FOR MOBILE -->
+    <div class="contain-to-grid show-for-small">
+	    <nav class="top-bar" data-topbar  data-options="mobile_show_parent_link:true">
+		    <!-- BRANDING -->
+	      <ul class="title-area">
+	        <li class="name">
+	        	<h1><a href="https://www.unt.edu" title="UNT" aria-label="UNT home page link" target="_blank">UNT</a></h1>
+	        </li>
+	        <li class="toggle-topbar menu-icon">
+	          <a href="#" aria-label="Mobile Menu toggle button"><span class="text-indent">Menu</span><span></span></a>
+	        </li>
+	      </ul>
+	      <!-- /BRANDING -->
+
+				<!-- MOBILE MENU -->
+	      <section class="top-bar-section">
+	        	          <ul id="main-menu" class="main-nav"><li class="has-form"><form action="/account-request" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+      <h2 class="element-invisible">Search form</h2>
+    <div class="row collapse"><div class="small-8 columns"><div class="form-item form-type-textfield form-item-search-block-form">
+  <label class="element-invisible" for="edit-search-block-form--2">Search </label>
+ <input title="Enter the terms you wish to search for." type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" class="form-text" />
+</div>
+</div><div class="small-4 columns"><button class="secondary button radius postfix expand form-submit" id="edit-submit" name="op" value="Search" type="submit">Search</button>
+</div></div><input type="hidden" name="form_build_id" value="form-FEFWRix08M5MlNFwpD-EChQaSfbQ-EYav8XB-7RzL9c" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form></li>
+	  <li class="mm-ctas-wrapper">
+	  	<div class="mm-ctas">
+		  	<a href="tel:+19403697066" class="col mobile-4 call">Call us</a>
+		  	<a href="//www.unt.edu/find-people-departments" class="col mobile-4 email" target="_blank">Contact Us</a>
+		  	<a href="https://www.google.com/maps/dir//General+Academic+Building,+Denton,+TX/@33.2125102,-97.1491603,18z/data=!4m8!4m7!1m0!1m5!1m1!1s0" class="col mobile-4 map">UNT Map</a>
+		  </div>
+		 </li><li class="first leaf" title=""><a href="/home" title="">Home</a></li><li class="expanded has-dropdown"><a href="/home">Using Talon 3</a><ul class="dropdown"><li class="first leaf"><a href="/account-info">Account Information</a></li><li class="leaf" title=""><a href="/userguide" title="">Talon 3 User Guide</a></li><li class="expanded has-dropdown"><a href="/tutorials">Tutorials</a><ul class="dropdown"><li class="first leaf"><a href="/nuo1-toc">New-User Orientation, Part 1, Table of Contents</a></li><li class="last leaf"><a href="/nuo2-toc">New-User Orientation, Part 2, Table of Contents</a></li></ul></li><li class="leaf"><a href="/policies">Policies</a></li><li class="leaf" title=""><a href="/cite" title="">Citing Talon, HPC</a></li><li class="last leaf"><a href="/faq">FAQs</a></li></ul></li><li class="expanded has-dropdown"><a href="/allocation-guide">Computing Resources</a><ul class="dropdown"><li class="first leaf"><a href="/talon-compute-nodes">Compute Nodes</a></li><li class="leaf"><a href="/storage">File Storage</a></li><li class="last leaf" title=""><a href="/software" title="">Scientific Software Documentation</a></li></ul></li><li class="expanded has-dropdown"><a href="/services">Services</a><ul class="dropdown"><li class="first leaf"><a href="/consulting">Consulting</a></li><li class="leaf"><a href="/hostingresources">Hosting Resources</a></li><li class="last leaf"><a href="/workshops">Workshops</a></li></ul></li><li class="leaf" title=""><a href="/hpc-calendar" title="">HPC Calendar</a></li><li class="expanded has-dropdown"><a href="/abouthpc">About</a><ul class="dropdown"><li class="first leaf" title=""><a href="/abouthpc" title="">About HPC</a></li><li class="leaf"><a href="/staffdirectory">People</a></li><li class="leaf" title=""><a href="https://it.unt.edu/rits" title="">Research IT Services</a></li><li class="last leaf" title=""><a href="/dsa" title="">Data Science and Analytics</a></li></ul></li><li class="last leaf"><a href="/contact">Contact</a></li><li class="last expanded audience has-dropdown not-click"><a href="#">Quicklinks</a>
+	<ul class="dropdown">
+		<li class="title back js-generated"><h5><a href="javascript:void(0)">Back</a></h5></li>
+		<li class="leaf first"><a href="//my.unt.edu/">MyUNT</a></li>
+		<li class="leaf"><a href="//learn.unt.edu/">Blackboard</a></li>
+		<li class="leaf"><a href="//eagleconnect.unt.edu/">EagleConnect</a></li>
+		<li class="leaf"><a href="//www.unt.edu/find-people-departments">University Directory</a></li>
+		<li class="leaf"><a href="//maps.unt.edu/" class="alt">UNT Map</a></li>
+		<li class="leaf last"><a href="//hr.untsystem.edu/" class="alt">Jobs at UNT</a></li>
+	</ul>
+</li></ul>	        	        	          	        	      </section>
+	      <!-- /MOBILE MENU  -->
+	    </nav>
+    </div>
+    <!-- /TOP BAR -->
+
+		<!-- HEADER -->
+    <section id="header" class="row  hide-for-small">
+
+			<div id="banner">
+				<!-- <a href="http://www.unt.edu/" title="UNT Home Site" target="_blank" aria-label="UNT home page link"><img src="//webassets.unt.edu/images/d7foundation/unt-1890-banner.svg" alt="UNT | Est. 1890" class="unt-banner"></a> -->
+			</div>
+
+			<div id="lettermark">
+				<a href="http://www.unt.edu" aria-label="UNT home page link"><img src="//webassets.unt.edu/images/d7foundation/unt_lettermark.svg" alt="UNT"></a>
+			</div>
+
+			<div id="site-name">
+									<span>
+            <a href="https://it.unt.edu/rits" aria-label="Link to Research IT Services, University IT">Research IT Services, University IT</a>
+          </span>
+								<h1 class="title"><a href="https://hpc.unt.edu/" rel="home" title="High-Performance Computing Home">High-Performance Computing</a></h1>
+			</div>
+
+    	<div id="search">
+				<!-- <a id="searchbutton" data-dropdown="searchdrop" data-options="is_hover:true; hover_timeout:250" aria-controls="searchdrop" aria-expanded="false" aria-label="Search form toggle"><img src="//webassets.unt.edu/images/d7foundation/fa-search.svg" alt="Search button" /></a> -->
+
+				<div id="searchdrop" data-dropdown-content class="small f-dropdown" aria-hidden="true" tabindex="-1">
+				  <form action="/account-request" method="post" id="search-block-form--2" accept-charset="UTF-8"><div><div class="container-inline">
+      <h2 class="element-invisible">Search form</h2>
+    <div class="row collapse"><div class="small-8 columns"><div class="form-item form-type-textfield form-item-search-block-form">
+  <label class="element-invisible" for="edit-search-block-form--4">Search </label>
+ <input title="Enter the terms you wish to search for." type="text" id="edit-search-block-form--4" name="search_block_form" value="" size="15" maxlength="128" class="form-text" />
+</div>
+</div><div class="small-4 columns"><button class="secondary button radius postfix expand form-submit" id="edit-submit--2" name="op" value="Search" type="submit">Search</button>
+</div></div><input type="hidden" name="form_build_id" value="form-yE3bq2DKiIEmUUEcoO_YVCYKFRR1FfectFryObDnOmQ" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>				</div>
+    	</div>
+
+    	<div id="quicklinks">
+				<!-- <a id="quickbutton" data-dropdown="quickdrop" data-options="is_hover:true; hover_timeout:250" aria-controls="quickdrop" aria-expanded="false" aria-label="Quicklinks menu toggle"><img src="//webassets.unt.edu/images/d7foundation/fa-quicklinks.svg" alt="Quicklinks button" /></a> -->
+
+				<ul id="quickdrop" class="small f-dropdown" data-dropdown-content aria-hidden="true" tabindex="-1">
+				  <li><a href="//my.unt.edu/" class="alt">MyUNT</a></li>
+				  <li><a href="//learn.unt.edu/" class="alt">Blackboard</a></li>
+				  <li><a href="//eagleconnect.unt.edu/" class="alt">EagleConnect</a></li>
+				  <li><a href="//www.unt.edu/find-people-departments" class="alt">UNT Directory</a></li>
+				  <li><a href="//maps.unt.edu/" class="alt">UNT Map</a></li>
+				  <li><a href="//hr.untsystem.edu/" class="alt">Jobs at UNT</a></li>
+				</ul>
+    	</div>
+
+    	<div id="search-scrolled">
+				<!-- <a id="searchscrolledbutton" data-dropdown="searchdrop-scrolled" data-options="is_hover:true; hover_timeout:250" aria-controls="searchdrop-scrolled" aria-expanded="false" aria-label="Scrolled screen Search form toggle"><img src="//webassets.unt.edu/images/d7foundation/fa-search.svg" alt="Search button" /></a> -->
+    	</div>
+
+    	<div id="quicklinks-scrolled">
+				<a id="quickscrolledbutton" data-dropdown="quickdrop-scrolled" data-options="is_hover:true; hover_timeout:250" aria-controls="quickdrop-scrolled" aria-expanded="false" aria-label="Scrolled screen Quicklinks menu toggle"><img src="//webassets.unt.edu/images/d7foundation/fa-quicklinks.svg" alt="Quicklinks button" /></a>
+    	</div>
+
+    	<div id="menu-scrolled">
+				<a id="menuscrolledbutton" data-dropdown="menudrop-scrolled" data-options="is_hover:true; hover_timeout:250" aria-controls="menudrop-scrolled" aria-expanded="false" aria-label="Scrolled screen Main Menu toggle"><img src="//webassets.unt.edu/images/d7foundation/fa-menu.svg" alt="Main Menu button" /></a>
+    	</div>
+
+
+    </section>
+    <!-- /HEADER -->
+
+
+
+  	<div class="main-menu">
+    	<div class="box">
+	    	<div class="large-12">
+	    		  <div id="main-menu" class="main-menu hide-for-small">
+
+
+  </header>
+
+      <!--.l-featured -->
+    <section class="l-featured row">
+      <div class="columns">
+          <section class="block block-nivo-slider block-nivo-slider-nivo-slider">
+
+
+
+  </section>      </div>
+    </section>
+    <!--/.l-featured -->
+
+
+
+  <!--.l-main -->
+  <main role="main" class="row l-main">
+    <!-- .l-main region -->
+    <div class="medium-9 medium-push-3 main columns">
+
+      <a id="main-content"></a>
+
+
+      															<h1 id="page-title" class="title">Talon 3 SSH Code</h1>
+
+
+
+
+
+    <article id="node-142" class="node node-talon-page node-promoted view-mode-full">
+
+
+
+  <div class="body field">
+    <script>
+      function myFunction() {
+        document.getElementById('Login').style.display = "none";
+        document.getElementById('showme').style.display = "block";
+      }
+      </script>
+
+      <script>
+      function copyText() {
+        var copyText = document.getElementById("passInput");
+        copyText.select();
+        copyText.setSelectionRange(0, 99999)
+        document.execCommand("copy");
+        // alert("Copied the text: " + copyText.value);
+      }
+      </script>
+
+      {% if login %}
+      <form action="" method="post">
+        <input type="text" placeholder="Username" name="username" value="{{
+          request.form.username }}">
+         <input type="password" placeholder="Password" name="password" value="{{
+          request.form.password }}">
+        <input class="btn btn-default" type="submit" value="Login" onclick="myFunction()" id="Login">
+        <div class="loader" id="showme" style="display:none;"></div>
+      </form>
+      {% endif %}
+
+      {% if ide_link %}
+      <form action="" onsubmit="return false">
+        Please go to: <a href={{ide_link}}></strong> {{ide_link}}</a><br>
+        Pass: <input type="text" value={{ide_password}} id="passInput" readonly><br>
+        <button onclick="copyText()">Copy Pass</button>
+      </form>
+      {% endif %}
+
+    {% if error %}
+      <p class="error"><strong>Error:</strong> {{ error }}</p>
+    {% endif %}
+
+
+    <p>
+
+    <!-- First, log in to the <a href="/user">user page</a>, and enter your valid UNT credentials, EUID and password. -->
+  </p>
+
+<p>
+  <!-- You must be logged in with valid UNT credentials to see the link to the <strong><a href="/account-request-form">Talon 3 Account Request Form</a></strong>. Fill out the form completely. -->
+</p>
+
+<hr />
+<p>
+  <!-- NOTE: After a log in attempt, if you get the following error, please visit the Account Management System website, <a href="https://ams.unt.edu">https://ams.unt.edu</a>, log in, then designate which email account is your preferred email address for the system to use. Once your preferred email address is set, return to this page to log in. Should you have any problems with your UNT credentials, contact the <a href="https://it.unt.edu/helpdesk">University IT Help Desk</a>, 940-565-2324, <a href="mailto:helpdesk@unt.edu">helpdesk@unt.edu</a>. -->
+</p>
+
+<!-- <p><img alt="Login error notice " src="/sites/default/files/login-error-notice-talon.png" /></p> -->
+</div>
+
+
+</article>
+
+
+      <div class="jump-to-top"><a href="#skip"><span>Top</span></a></div>
+    </div>
+
+      </main>
+  <!--/.l-main -->
+
+
+
+
+
+<footer id="footer">
+
+	<section class="footer-socials">
+		<div class="socials-wrapper">
+							<!-- <a href="https://www.facebook.com/northtexas" class="facebook" title"UNT on facebook" target="_blank" aria-label="UNT on Facebook"><img src="//webassets.unt.edu/images/d7foundation/social-facebook.png" alt="facebook"></a>
+
+							<a href="https://twitter.com/UNTSocial" class="twitter" title="Twitter" target="_blank" aria-label="UNT on Twitter"><img src="//webassets.unt.edu/images/d7foundation/social-twitter.png" alt="twitter"></a>
+
+							<a href="https://www.youtube.com/user/universitynorthtexas" class="youtube" title="YouTube" target="_blank" aria-label="UNT on YouTube"><img src="//webassets.unt.edu/images/d7foundation/social-youtube.png" alt="YouTube"></a>
+
+
+							<a href="https://www.instagram.com/UNT/" class="instagram" title="Instagram" target="_blank" aria-label="UNT on Instagram"><img src="//webassets.unt.edu/images/d7foundation/social-instagram.png" alt="Instagram"></a>
+
+							<a href="https://www.flickr.com/photos/unt" class="flickr" title="flickr" target="_blank" aria-label="UNT on Flickr"><img src="//webassets.unt.edu/images/d7foundation/social-flickr.png" alt="flickr"></a>
+ -->
+
+
+			<!-- <a href="http://social.unt.edu/social-media-directory" class="directory" title="UNT Social Media Directory" aria-label="UNT Social Media directory"><img src="//webassets.unt.edu/images/d7foundation/social-directory.png" alt="UNT Social Directory"></a> -->
+		</div>
+	</section>
+
+  <section class="footer-main">
+    <div class="wrapper row l-footer-columns">
+
+      <div class="footer-first medium-3 columns">
+        <div class="footer-brand">
+					<a href="https://www.unt.edu" aria-label="UNT home page link">
+						<!-- <img src="//webassets.unt.edu/images/d7foundation/unt-logo-stacked-green.svg" alt="UNT | University of North Texas | green logo" class="desktop" title="UNT | University of North Texas home page" /> -->
+						<img src="//webassets.unt.edu/images/d7foundation/unt-logo-stacked.svg" alt="UNT | University of North Texas | white logo" class="mobile" title="UNT | University of North Texas home page" />
+					</a>
+				</div>
+      </div>
+
+      <div class="footer-second medium-6 mobile-0 desktop columns">
+        <h4 class="title">Main Menu</h4>
+        <ul class="links"><li class="menu-653 first"><a href="/home" title="">Home</a></li>
+<li class="menu-626"><a href="https://hpc.unt.edu/home">Using Talon 3</a></li>
+<li class="menu-665"><a href="/allocation-guide">Computing Resources</a></li>
+<li class="menu-676"><a href="/services">Services</a></li>
+<li class="menu-701"><a href="/hpc-calendar" title="">HPC Calendar</a></li>
+<li class="menu-632"><a href="/abouthpc">About</a></li>
+<li class="menu-646 last"><a href="/contact">Contact</a></li>
+</ul>
+        <h4 class="title">University Links</h4>
+        <ul class="links">
+				  <li><a href="//my.unt.edu/" class="alt">MyUNT</a></li>
+				  <li><a href="//learn.unt.edu/" class="alt">Blackboard</a></li>
+				  <li><a href="//eagleconnect.unt.edu/" class="alt">EagleConnect</a></li>
+				  <li><a href="//www.unt.edu/find-people-departments" class="alt">UNT Directory</a></li>
+				  <li><a href="//maps.unt.edu/" class="alt">UNT Map</a></li>
+				  <li><a href="//hr.untsystem.edu/" class="alt">Jobs at UNT</a></li>
+        </ul>
+
+				<h4 class="title">Email &amp; Phone</h4>
+
+				<ul class="links">
+																		<li><i class="fa fa-envelope"></i>&nbsp;<a href="mailto:hpc-admin@unt.edu" class="email">hpc-admin@unt.edu</a></li>
+
+																		<li><i class="fa fa-phone"></i>&nbsp;<a href="tel:940-369-7066">940-369-7066</a></li>
+																			<li><i class="fa fa-phone"></i>&nbsp;<a href="tel:940-369-6046">940-369-6046</a></li>
+																					</ul>
+      </div>
+
+      <div class="footer-fifth medium-3 footer-contact columns">
+
+        <p class="footer-site-name">High-Performance Computing</p>
+
+				<p class="address">
+					<i class="fa fa-map-marker"></i>&nbsp;&nbsp;<a href="https://www.google.com/maps/dir//General+Academic+Building,+Denton,+TX/@33.2125102,-97.1491603,18z/data=!4m8!4m7!1m0!1m5!1m1!1s0" target="_blank"
+
+            aria-label="General Academic Building, Room 535 on Google Maps">
+
+            General Academic Building, Room 535</a><br />
+
+					<i class="fa fa-envelope"></i>&nbsp;&nbsp;1155 Union Circle #310709<br />
+										Denton, Texas 76201<br />
+					<i class="fa fa-car"></i>&nbsp;&nbsp;<a href="https://www.unt.edu/community">Visitor Information</a></p>
+
+				<div class="mobile-ctas">
+											<a class="call-us" href="tel:940-369-7066"><i class="fa fa-phone" title="Call us"></i><br />Call us</a>
+
+											<a class="email-us" href="mailto:hpc-admin@unt.edu"><i class="fa fa-envelope" title="Email us"></i><br />Email Us</a>
+
+					<a class="unt-map" href="https://goo.gl/maps/gmkVRXCJqCq" title="UNT Map"><i class="fa fa-map-marker"></i><br />UNT Map</a>
+				</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- <section id="mobile-socials">
+					<a href="https://www.facebook.com/northtexas" id="tab1" class="tab facebook" title="facebook"><i class="fa fa-facebook"></i><span class="label-hide">facebook</span></a>
+
+					<a href="https://twitter.com/UNTSocial" id="tab2" class="tab twitter" title="twitter"><i class="fa fa-twitter"></i><span class="label-hide">twitter</span></a>
+
+					<a href="https://www.instagram.com/UNT/" id="tab3" class="tab instagram" title="Instagram"><i class="fa fa-instagram"></i><span class="label-hide">Instagram</span></a>
+
+
+
+					<a href="https://www.youtube.com/user/universitynorthtexas" id="tab6" class="tab youtube" title="YouTube"><i class="fa fa-youtube"></i><span class="label-hide">YouTube</span></a>
+
+
+
+			<a href="http://social.unt.edu/social-media-directory" id="tab9" class="tab directory" title="UNT Social Media Directory"><i class="fa fa-list-ul"></i><span class="label-hide">UNT Media Direction</span></a>
+  </section> -->
+
+	<section class="copyright">
+		<div class="col large-12 centered">
+			<!-- <div class="btn btn1 c1 altcolor small">
+				<a href="//admissions.unt.edu">Apply now</a>
+				<a href="//tours.unt.edu">Schedule a tour</a>
+				<a href="//admissions.unt.edu/requestinfo">Get more info</a>
+			</div> -->
+		</div>
+
+		<p class="footer-copylinks"><a href="www.unt.edu/disclaimer">Disclaimer</a> | <a href="//www.unt.edu/ada">AA/EOE/ADA</a> | <a href="//www.unt.edu/privacy">Privacy</a> | <a href="//policy.unt.edu/policy/14-005">Electronic Accessibility</a> | <a href="//www.unt.edu/required-links">Required Links</a> | <a href="//www.unt.edu">UNT Home</a></p>
+		<p>&copy;2019 University of North Texas</p>
+		<p class="show-for-small-only"><a href="//www.unt.edu/required-links">Required Links</a><span></p>
+
+	</section>
+
+</footer>
+
+
+</div>
+<!--/.page -->
+
+	<script type="text/javascript">
+jQuery('a[href*="https://it.unt.edu/rits"]').attr('target','_blank');
+</script>
+
+	<script type="text/javascript">
+
+  // changes default template.php output of the google search form, to allow for different IDs on the input and aria-labels
+  jQuery(document).ready(function() {
+		jQuery("#dropbar #google-search-label").attr('for', 'wdc-google-search-scrolled');
+		jQuery("#dropbar #google-search-label").attr('id', 'google-search-label-scrolled');
+		jQuery("#dropbar #wdc-google-search").attr('id', 'wdc-google-search-scrolled');
+		// FOR STANDARD DRUPAL SEARCH
+		jQuery("#dropbar .form-item-search-block-form label").attr('for', 'edit-search-block-form--4-mobile');
+		jQuery("#dropbar #edit-search-block-form--4").attr('id', 'edit-search-block-form--4-mobile');
+  });
+
+  // creates/adds scrolled classes
+	jQuery(window).scroll(function() {
+
+		// read scroll from top
+		var jumpIf = 75;
+		var scroll = jQuery(window).scrollTop();
+		var desktop = window.matchMedia("(min-width: 770px)").matches;
+
+		if(window.jumpOff > 0){
+			if(scroll < window.jumpOff){
+				window.jumpOff = 0;
+				jQuery("body").removeClass('scrolled');
+			}
+		} else {
+			if(jQuery('.header').length > 0){
+				jumpIf = jQuery('.header').offset().top + 75;
+			}
+			if(scroll > jumpIf){
+				jQuery("body").addClass('scrolled');
+				window.jumpOff = jumpIf;
+			}
+		}
+	});
+	jQuery('.col').has('.col').addClass('parent');
+	</script>
+
+  <script>
+    (function ($, Drupal, window, document, undefined) {
+      $(document).foundation();
+    })(jQuery, Drupal, this, this.document);
+  </script>
+</body>
+</html>
