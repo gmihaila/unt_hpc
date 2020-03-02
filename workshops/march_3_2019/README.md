@@ -16,6 +16,7 @@ Open a temrinal in your Jupyter Lab session and type:
 * `pip install nltk`
 * `pip install tensorflow-datasets`
 * `pip install lime`
+* `pip install git+https://github.com/UKPLab/sentence-transformers`
 
 Now restart kernel.
 
