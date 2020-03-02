@@ -16,6 +16,7 @@ Open a temrinal in your Jupyter Lab session and type:
 * `pip install nltk`
 * `pip install tensorflow-datasets`
 * `pip install lime`
+
 Now restart kernel.
 
 ## content/word_embeddings_sentiment_clustering.ipynb
