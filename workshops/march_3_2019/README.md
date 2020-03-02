@@ -9,6 +9,15 @@
 </td>
 </br>
 
+## Setup python environment:
+Open a temrinal in your Jupyter Lab session and type:
+* `module load jupyter`
+* `pip install git+https://github.com/arvkevi/kneed`
+* `pip install nltk`
+* `pip install tensorflow-datasets`
+* `pip install lime`
+Now restart kernel.
+
 ## content/word_embeddings_sentiment_clustering.ipynb
 * First experiment to run.
 * Uses custom word embeddings.
