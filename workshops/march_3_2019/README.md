@@ -48,4 +48,3 @@ When performing information extraction with comparative expressions, for example
   * dual-polarity sentences can confuse binary sentiment classifiers, leading to incorrect class predictions.
 
 [source](https://towardsdatascience.com/fine-grained-sentiment-analysis-in-python-part-1-2697bb111ed4)
-
