@@ -8,6 +8,18 @@
   <a target="_blank" href="https://github.com/gmihaila/unt_hpc/blob/master/workshops/march_3_2019/README.md"><img src="https://www.tensorflow.org/images/GitHub-Mark-32px.png" />View source on GitHub</a>
 </td>
 </br>
+
+## word_embeddings_sentiment_clustering.ipynb
+* First experiment to run.
+* Uses custom word embeddings.
+
+## bert_sentiment_clustering.ipynb
+* Second experiment to run.
+* Repeats similar experiments but using BERT contextual embeddings.
+* Shows the difference between using different types of word embeddings.
+
+## Details:
+
 The main purpose of this tutorial is to target a particular Natural Language Processing (NLP) problem, in this case Sentiment Analysis, and use GPUs for great speedup.
 
 Walkthoughs:
