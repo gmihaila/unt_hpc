@@ -1,4 +1,4 @@
-# THIS REPO IS OUTDATED! PLEASE GO TO [unt-rits.github.io](https://unt-rits.github.io/)!
+# THIS REPO IS OUTDATED! PLEASE GO TO [unt-rits.github.io](https://unt-rits.github.io/)
 
 ## University of North Texas (UNT) High Performance Computing (HPC)
 ## Data Science & Analytics (DSA)
