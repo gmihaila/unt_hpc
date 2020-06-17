@@ -1,3 +1,6 @@
+# THIS REPO IS OUTDATED! PLEASE GO TO [unt-rits.github.io](https://unt-rits.github.io/)
+
+
 # (Mac and Linux Only)
 ## SSH Terminal Easy Configuration
 
