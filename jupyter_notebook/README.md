@@ -1,3 +1,6 @@
+# THIS REPO IS OUTDATED! PLEASE GO TO [unt-rits.github.io](https://unt-rits.github.io/)
+
+
 # Jupyter Notebooks on Talon UNT
 
 * ### [First time ONLY Setup !!](https://github.com/gmihaila/unt_hpc/blob/master/jupyter_notebook/first_time_use.md)
