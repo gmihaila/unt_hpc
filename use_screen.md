@@ -1,3 +1,6 @@
+# THIS REPO IS OUTDATED! PLEASE GO TO [unt-rits.github.io](https://unt-rits.github.io/)
+
+
 ## How to use screen
 
 **For more info [here](https://www.rackaid.com/blog/linux-screen-tutorial-and-how-to/)**
