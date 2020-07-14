@@ -20,7 +20,7 @@ You should see a window like this:
 
 
 
-To ssh in Talon Viz Node, type your ** YOUR_EUID@vis-01.acs.unt.edu ** where it says *username@hostname or free from text* This will automatically fill in username and hostname fields.
+To ssh in Talon Viz Node, type your **YOUR_EUID@vis-01.acs.unt.edu** where it says *username@hostname or free from text* This will automatically fill in username and hostname fields.
 
 Then enter 22 for the *port* field.
 
@@ -54,7 +54,6 @@ For example:
 ```
 $ module load keras/2.2.0
 ```
-
 
 ### Launch Jupyter Notebook:
 
